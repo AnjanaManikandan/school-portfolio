@@ -1,0 +1,129 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff; /* Light blue background for a wintery feel */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #89bfec;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgb(35, 7, 248); /* Add a subtle text shadow */
+}
+
+p {
+  color: #c8d7e3;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px rgb(35, 7, 248); /* Add a subtle text shadow */
+}
+
+.qualifications {
+  background-color: #eff7ff; /* Light gray for contrast */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #2b87c0; /* Dark red for a festive touch */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #2c3e50; /* Dark blue for a wintery feel */
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-spinner img {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+/* VideoBackground.css */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Set a lower z-index to move the background behind other elements */
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  position: relative; /* Make the body a positioning context for z-index */
+}
+
+.portfolio {
+  max-width: 800px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #2f5999;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative; /* Ensure the portfolio has a stacking context */
+  z-index: 1; /* Set a higher z-index to keep it above the background */
+}
+
+/* App.css */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #41b0f5; /* Hover color */
+}
